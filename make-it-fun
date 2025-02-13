@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Play Selector</title>
+    <!-- OpenGraph Metadata for Iframely -->
+    <meta property="og:title" content="Make it Fun!">
+    <meta property="og:description" content="Click the button to randomly select a play for you!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adhdjoy.github.io/ADHDJoy/number-picker.html"> <!-- Replace with your hosted URL -->
+    <meta property="og:image" content="https://via.placeholder.com/600x400/036a75/fffdf1?text=Random+Play+Selector"> <!-- Optional: Replace with a custom image -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #036a75; /* Brand background color */
+        }
+        .container {
+            text-align: center;
+            background: #fffdf1; /* Light text background */
+            padding: 20px;
+            border-radius: 20px; /* Rounded container corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            width: 300px; /* Adjust container width */
+        }
+        h1, p {
+            color: #036a75; /* Text color matches background for consistency */
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fffdf1; /* Button text color */
+            background-color: #dc0073; /* Brand button color */
+            border: none;
+            border-radius: 50px; /* Make the button pill-shaped */
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Smooth hover transition */
+        }
+        button:hover {
+            background-color: #b8005e; /* Slightly darker button hover color */
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 2rem;
+            color: #036a75; /* Result text color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Make it Fun!</h1>
+        <p>Click the button to randomly select a play for you!</p>
+        <button onclick="pickRandomNumber()">Let's Play!</button>
+<div class="result">
+    Your play number is: <span id="result">✨🎲✨</span>
+</div>
+    <script>
+        function pickRandomNumber() {
+            const randomNum = Math.floor(Math.random() * 12) + 1;
+            document.getElementById('result').textContent = randomNum;
+        }
+    </script>
+</body>
+</html>
