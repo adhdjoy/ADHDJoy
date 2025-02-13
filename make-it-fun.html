@@ -18,23 +18,23 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #036a75; /* Brand background color */
+            background-color: #ffffff; /* Background stays white */
         }
         .container {
             text-align: center;
-            background: #fffdf1; /* Light text background */
+            background: #036a75; /* Foreground in teal */
             padding: 20px;
             border-radius: 20px; /* Rounded container corners */
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
             width: 300px; /* Adjust container width */
         }
         h1, p {
-            color: #036a75; /* Text color matches background for consistency */
+            color: #fffdf1; /* Text in white */
         }
         button {
             padding: 10px 20px;
             font-size: 1rem;
-            color: #fffdf1; /* Button text color */
+            color: #fffdf1; /* Button text in white */
             background-color: #dc0073; /* Brand button color */
             border: none;
             border-radius: 50px; /* Make the button pill-shaped */
@@ -47,7 +47,7 @@
         .result {
             margin-top: 20px;
             font-size: 2rem;
-            color: #036a75; /* Result text color */
+            color: #fffdf1; /* Result text in white */
         }
     </style>
 </head>
@@ -56,9 +56,10 @@
         <h1>Make it Fun!</h1>
         <p>Click the button to randomly select a play for you!</p>
         <button onclick="pickRandomNumber()">Let's Play!</button>
-<div class="result">
-    Your play number is: <span id="result">✨🎲✨</span>
-</div>
+        <div class="result">
+            Your play number is: <span id="result">✨🎲✨</span>
+        </div>
+    </div>
     <script>
         function pickRandomNumber() {
             const randomNum = Math.floor(Math.random() * 12) + 1;
