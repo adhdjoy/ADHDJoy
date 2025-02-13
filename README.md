@@ -1,5 +1,11 @@
 ## Hi there 👋
-
+ 🔭 I’m a certified ADHD Coach, Coach Mentor and trainer and Certified Health & Wellness coach.... and I love learning. Huge Notion fan and have a habit of creating what I can not find that I want to use for work or play. 
+ 🌱 I’m currently learning how to work with code and make some of my ideas come to life in this way and just enjoy the creative process. 
+ 🤔 I’m game to collaborate or work with fun folks who would benefit from coaching. 
+ 💬 Ask me about coaching!  
+ You can reach me through my website: adhdjoy.com
+ That's all I got for right now. 
+ Be wonderful - as you are.
 <!--
 **adhdjoy/ADHDJoy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
